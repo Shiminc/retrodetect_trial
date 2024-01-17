@@ -1,4 +1,4 @@
-from distutils.core import setup
+from distutils.core import setup # change to pyproject toml
 setup(
   name = 'retrodetect',
   packages = ['retrodetect'],
@@ -10,5 +10,5 @@ setup(
   download_url = 'https://github.com/lionfish0/retrodetect.git',
   keywords = ['image processing','retroreflectors'],
   classifiers = [],
-  install_requires=['numpy'],
+  install_requires=['numpy'], # SC: put requirement here
 )

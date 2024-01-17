@@ -1,6 +1,6 @@
 import numpy as np
 from retrodetect.normxcorr2 import normxcorr2
-import QueueBuffer as QB
+#import QueueBuffer as QB - SC: did not see it used in the code
 import numbers
 import os
 from libsvm.svmutil import svm_predict,svm_load_model
